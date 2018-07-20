@@ -7,7 +7,6 @@ import org.junit.Test;
 
 import br.com.caelum.fj91.rh.pages.PaginaDeCargos;
 import br.com.caelum.fj91.rh.pages.Sistema;
-import br.com.caelum.fj91.rh.util.Ambiente;
 import br.com.caelum.fj91.rh.util.Util;
 
 public class CadastroCargoTest {
@@ -16,7 +15,7 @@ public class CadastroCargoTest {
 	
 	@Before
 	public void setup() {
-		this.sistema = new Sistema(Ambiente.FIREFOX_LINUX);
+		this.sistema = new Sistema();
 	}
 	
 	@After
