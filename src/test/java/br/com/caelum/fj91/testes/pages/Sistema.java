@@ -1,13 +1,13 @@
-package br.com.caelum.fj91.rh.pages;
+package br.com.caelum.fj91.testes.pages;
 
 import org.openqa.selenium.WebDriver;
 
-import br.com.caelum.fj91.rh.util.Ambiente;
+import br.com.caelum.fj91.testes.util.Ambiente;
 
 public class Sistema {
 	
-	private final String URL_SISTEMA = "http://localhost:8080/rh";
-	private final Ambiente ambiente = Ambiente.FIREFOX_LINUX;
+	private final String URL_SISTEMA = "http://localhost:8080/testes";
+	private final Ambiente ambiente = Ambiente.FIREFOX_MACOS;
 	private final WebDriver driver;
 	
 	public Sistema() {

@@ -1,13 +1,13 @@
-package br.com.caelum.fj91.rh.cargo;
+package br.com.caelum.fj91.testes.cargo;
 
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import br.com.caelum.fj91.rh.pages.PaginaDeCargos;
-import br.com.caelum.fj91.rh.pages.Sistema;
-import br.com.caelum.fj91.rh.util.Util;
+import br.com.caelum.fj91.testes.pages.PaginaDeCargos;
+import br.com.caelum.fj91.testes.pages.Sistema;
+import br.com.caelum.fj91.testes.util.Util;
 
 public class CadastroCargoTest {
 	

@@ -1,4 +1,4 @@
-package br.com.caelum.fj91.rh.pages;
+package br.com.caelum.fj91.testes.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

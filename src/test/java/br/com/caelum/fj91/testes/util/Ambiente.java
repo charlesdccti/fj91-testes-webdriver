@@ -1,4 +1,4 @@
-package br.com.caelum.fj91.rh.util;
+package br.com.caelum.fj91.testes.util;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
