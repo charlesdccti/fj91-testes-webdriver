@@ -16,7 +16,7 @@ public class CadastroCargoTest {
 	
 	@Before
 	public void setup() {
-		this.sistema = new Sistema(Ambiente.FIREFOX_MACOS);
+		this.sistema = new Sistema(Ambiente.FIREFOX_LINUX);
 	}
 	
 	@After
